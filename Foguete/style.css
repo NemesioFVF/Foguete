@@ -1,0 +1,24 @@
+body {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 30, 65);
+    overflow: hidden;
+}
+
+div {
+    background-image: url("img/ff.png");
+    position: relative;
+    height: 1900vh;
+    width: 1000vw;
+    padding: 1700px;
+    -webkit-animation: foguete 25s linear 0s infinite;
+    -webkit-transform: rotate(500deg);
+
+}
+
+@-webkit-keyframes foguete {
+    from { background-position: 200% 0, 0 0; }
+    to  { background-position: 50% 0, 0 0; }
+    }
